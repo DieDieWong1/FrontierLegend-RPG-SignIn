@@ -1,0 +1,15 @@
+{
+  "servers": [
+    "59x-07.mcstory.cc:31832"
+  ],
+  "currentServerIndex": 0,
+  "accounts": [
+    "www1",
+    "www2",
+    "www3"
+  ],
+  "currentAccountIndex": 0,
+  "loginCommand": "/login 11111111",
+  "signinCommand": "/signin click",
+  "homeCommand": "/p v 1"
+}

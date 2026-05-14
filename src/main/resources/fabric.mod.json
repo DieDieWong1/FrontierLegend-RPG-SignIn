@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "signin",
+	"version": "${version}",
+	"name": "SignIn",
+	"description": "這是一個自動登陸和簽動的mod，用於自動簽動",
+	"authors": [
+		"DieDieWong (雪火)"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/1927038982?spm_id_from=333.1007.0.0",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/signin/wmw.jpg",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.signin.SignIn"
+		],
+		"client": [
+			"com.example.signin.SignInClient"
+		]
+	},
+	"mixins": [
+		"signin.mixins.json",
+		"signin.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.8",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
