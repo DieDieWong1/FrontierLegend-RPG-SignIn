@@ -38,3 +38,8 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# temp files
+temp-gradle-cache/
+minecraft-exported-logs-*.log
+config/signin.json
